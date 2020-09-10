@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game boy</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+    <script src="src/AudioPlayer.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4917cf57e6.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5cc5891cdd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div id="app">
+        <div class="player" data-src="./assets/songs/1.mp3">
+            <div class="gameBoy-body"></div>
+
+            <div class="Screen">
+                <div class="innerScreen">
+                    <div class="cover">
+                        <div class="progress"></div>
+                        <img src="./assets/covers/1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="Cross" style="align-items: center;">
+                <div class="vertical-button">
+                    <i class="fas fa-angle-up"></i>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+                <div class="horizontal-button">
+                    <i class="fas fa-angle-left"></i>
+                    <i class="fas fa-angle-right"></i>
+                </div>
+                <div class="square-button"></div>
+            </div>
+            <div class="controls">
+                <div class="otherBtn" style="align-self: flex-end;"></div>
+                <div class="btn playBtn" style="align-self: flex-start;"><i class="fas fa-play"></i></div>
+            </div>
+            <div class="Tiny">
+                <div class="button"></div>
+                <div class="button"></div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="src/main.js"></script>
+</body>
+
+</html>
